@@ -1,27 +1,45 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
 
 # Xylophone 🎹
 
-## Our Goal
+## Preview
 
-In this tutorial we will be diving into more Dart programming concepts and learning how to use open source Flutter packages. By the end of this module, you should be comfortable using Flutter packages and building repeated widgets.
+![App Preview](./assets/app-preview.png)
 
 
-## What you will create
+This project is part of a series of projects to be completed by students of the [AppBrewery](https://www.appbrewery.co/p/flutter-development-bootcamp-with-dart) flutter course.
 
-We’re going to make a music app that plays Xylophone sounds. For every Beethoven out there, this will let you unleash your musical talent where ever you are. 
+This project focuses on creating a xylophone emulator with the power of fluter's packages and the listview widget.
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/xylophone-flutter.png)
+## 🧮 The Project Brief
 
-## What you will learn
+The premise of this project is to learn how to use packages and listviews to update the state of an app and reflect the changes on the UI and be able to play several sounds.
 
-- How to incorporate open source libraries of code into your project using Flutter Packages.
-- How to play sound on both iOS and Android.
-- How to generate repeated user interface Widgets.
-- How to use Dart functions that can take input arguments as well as return an output.
-- Dart arrow syntax for writing one line functions.
+## 🧬 Technologies & Languages Used
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+- Dart
+- Flutter
+- Github
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+## 🛎️ Contributions, Issues & Forking
+
+If you have any issues setting up the project or you come across any unintended bugs or problems, please do submit an issue to the [Dice Roller](https://github.com/Psiale/xylophone-flutter/issues) page.
+
+If you want to make your own changes, modifications or improvements to our project, go ahead and Fork it!
+1. [Fork it](https://github.com/Psiale/xylophone-flutter/fork)
+
+2. Create your working branch (git checkout -b [choose-a-name])
+
+3. Commit your changes (git commit -m 'what this commit will fix/add/improve')
+4. Push to the branch (git push origin [chosen-name])
+5. Create a new Pull Request
+
+## 🤟🏽😄 😛🤙🏾  Creator
+
+Alexis Sanchez 
+- [Github](https://github.com/Psiale)
+- [Linkedin](https://www.linkedin.com/in/alexis-sanchez-dev/)
+
+## 🙌🏾 Show Your Support
+
+Give a ⭐️ if you like this project!
+
