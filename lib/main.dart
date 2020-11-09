@@ -10,7 +10,6 @@ class XylophoneApp extends StatefulWidget {
 
 class _XylophoneAppState extends State<XylophoneApp> {
   @override
-  
   List colors = [
     Colors.amber[500],
     Colors.amber[600],
@@ -86,14 +85,7 @@ class _XylophoneAppState extends State<XylophoneApp> {
               color: color, borderRadius: BorderRadius.circular(15)),
           height: percentageSizebyLenght(7, context),
           child: Stack(children: [
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 8.0),
-              child: Align(
-                alignment: Alignment.centerLeft,
-                child:
-                    CircleAvatar(radius: 20.0, backgroundColor: Colors.white),
-              ),
-            ),
+            circleBuilder(Alignment.centerLeft),
             Container(
               width: double.infinity,
               height: double.infinity,
@@ -104,14 +96,7 @@ class _XylophoneAppState extends State<XylophoneApp> {
                 },
               ),
             ),
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 8.0),
-              child: Align(
-                alignment: Alignment.centerRight,
-                child:
-                    CircleAvatar(radius: 20.0, backgroundColor: Colors.white),
-              ),
-            )
+            circleBuilder(Alignment.centerRight),
           ])),
     );
   }
@@ -124,5 +109,15 @@ class _XylophoneAppState extends State<XylophoneApp> {
   double percentageSizebyLenght(length, BuildContext context) {
     double height = MediaQuery.of(context).size.height;
     return height * (1 / (length + 1));
+  }
+
+  Widget circleBuilder(alignment) {
+    return Container(
+      margin: EdgeInsets.symmetric(horizontal: 8.0),
+      child: Align(
+        alignment: alignment,
+        child: CircleAvatar(radius: 20.0, backgroundColor: Colors.white),
+      ),
+    );
   }
 }
